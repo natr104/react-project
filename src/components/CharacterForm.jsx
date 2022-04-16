@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { fetchCharacter } from "../utilities/utilities";
-//import { handleSubmit } from "../utilities/utilities"
+import { handleSubmit } from "../utilities/utilities"
 
 export default function CharacterForm() {
 
@@ -15,13 +15,13 @@ export default function CharacterForm() {
         setRealm(event.target.value);
     }
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        fetchCharacter(characterName, realm); //store returned object in context
-    }
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     fetchCharacter(characterName, realm);
+    // }
 
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={(event)=>handleSubmit(event, characterName, realm)}>
             <label>
                 Character:
                 <input type="text" onChange={handleCharacterNameChange} value={characterName} />

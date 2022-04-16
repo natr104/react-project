@@ -5,13 +5,15 @@ export const fetchCharacter = async (characterName, realm) => {
         const response = await fetch(charURL);
         const character = await response.json();
         console.log(character)
+        return character;
     } catch(error) {
         console.error(error);
     }
 }
 
-export function handleSubmit(event, characterName, realm) {
+export const handleSubmit = (event, characterName, realm)=> {
     event.preventDefault();
-    fetchCharacter(characterName, realm);
+    const character = fetchCharacter(characterName, realm);
+    return character;
 }
 
