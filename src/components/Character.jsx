@@ -1,16 +1,15 @@
 import React from "react"
 import CharacterForm from "./CharacterForm"
+import CharacterDetails from "./CharacterDetails";
 import { useState } from "react";
 
 export default function Character() {
     
-    // const [characterName, setCharacterName] = useState("Kirasta");
-    // const [realm, setRealm] = useState("Saurfang");
     const [ character, setCharacter ] = useState({
         characterName: "Kirasta",
         realm: "Saurfang"
     })
-    //const [character, setCharacter] = useState([]);
+    const [characterDetails, setCharacterDetails] = useState(null);
 
     function handleCharacterChange(event) {
         setCharacter({
@@ -27,7 +26,18 @@ export default function Character() {
             <CharacterForm 
                 character={character}
                 handleCharacterChange={handleCharacterChange}
+                characterDetails={characterDetails}
+                setCharacterDetails={setCharacterDetails}
             />
+            {
+                characterDetails ? 
+                    <CharacterDetails 
+                        characterDetails={characterDetails} 
+                        setCharacterDetails={setCharacterDetails}
+                        character={character}
+                        setCharacter={setCharacter}
+                    /> : null
+            }
         </div>
     )
 }

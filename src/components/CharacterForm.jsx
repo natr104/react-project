@@ -1,22 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import { handleSubmit } from "../utilities/utilities"
 
 
-export default function CharacterForm({character, handleCharacterChange}) {
-
-    // const [characterName, setCharacterName] = useState("Kirasta");
-    // const [realm, setRealm] = useState("Saurfang");
-
-    // function handleCharacterNameChange(event) {
-    //     setCharacterName(event.target.value);
-    // }
-    
-    // function handleRealmChange(event) {
-    //     setRealm(event.target.value);
-    // }
+export default function CharacterForm({character, handleCharacterChange, characterDetails, setCharacterDetails}) {
 
     return(
-        <form onSubmit={(event)=>handleSubmit(event, character)}>
+        <form onSubmit={(event)=>handleSubmit(event, character, characterDetails, setCharacterDetails)}>
             <label>
                 Character:
                 <input type="text" name="characterName" onChange={handleCharacterChange} value={character.characterName} />
