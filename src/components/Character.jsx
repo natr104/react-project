@@ -34,8 +34,6 @@ export default function Character() {
                     <CharacterDetails 
                         characterDetails={characterDetails} 
                         setCharacterDetails={setCharacterDetails}
-                        character={character}
-                        setCharacter={setCharacter}
                     /> : null
             }
         </div>
