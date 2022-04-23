@@ -16,9 +16,8 @@ root.render(
       <Router>
         <Routes>
           <Route path="/" element={<App />}>
-            <Route index element={<Home />} />
-            <Route path="character" element={<Character />} />
           </Route>
+          <Route path="character" element={<Character />} />
         </Routes>
       </Router>
     </SavedCharactersContextProvider>
