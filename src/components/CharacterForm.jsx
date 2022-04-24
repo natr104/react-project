@@ -7,11 +7,11 @@ export default function CharacterForm({character, handleCharacterChange, charact
     return(
         <form onSubmit={(event)=>handleSubmit(event, character, characterDetails, setCharacterDetails)}>
             <label>
-                Character:
+                Character:{' '}
                 <input type="text" name="characterName" onChange={handleCharacterChange} value={character.characterName} />
             </label>
             <label>
-                Realm:
+                Realm:{' '}
                 <input type="text" name="realm" onChange={handleCharacterChange} value={character.realm} />
             </label>
             <input type="submit" value="Search" />

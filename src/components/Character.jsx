@@ -22,7 +22,7 @@ export default function Character() {
 
     return (
         <div>
-            <h2>Character</h2>
+            <h2>Character Search</h2>
             <CharacterForm 
                 character={character}
                 handleCharacterChange={handleCharacterChange}
