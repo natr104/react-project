@@ -14,8 +14,6 @@ export default function CharacterDetails({characterDetails, setCharacterDetails}
 
     const isSaved = () => savedCharacters.some(c=>c.name === characterDetails.name)
     
-    console.log(characterDetails);
-    
     return (
         <div id={characterDetails.name}>
             <Avatar characterDetails={characterDetails}/>

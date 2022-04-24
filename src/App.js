@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Character from './components/Character';
 import { Routes, Route, Link, Outlet} from 'react-router-dom';
 import Layout from './components/Layout';
+import SavedCharacters from './components/SavedCharacters';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="character" element={<Character />} />
+          <Route path="saved_characters" element={<SavedCharacters />} />
         </Route>
       </Routes>
     </div>
