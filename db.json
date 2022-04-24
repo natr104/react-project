@@ -1,3 +1,584 @@
 {
-  "savedCharacters": []
+  "savedCharacters": [
+    {
+      "name": "Kirasta",
+      "race": "Human",
+      "class": "Warrior",
+      "active_spec_name": "Fury",
+      "active_spec_role": "DPS",
+      "gender": "female",
+      "faction": "alliance",
+      "achievement_points": 18120,
+      "honorable_kills": 0,
+      "thumbnail_url": "https://render-us.worldofwarcraft.com/character/saurfang/218/198530010-avatar.jpg?alt=wow/static/images/2d/avatar/1-1.jpg",
+      "region": "us",
+      "realm": "Saurfang",
+      "last_crawled_at": "2022-04-24T03:18:28.000Z",
+      "profile_url": "https://raider.io/characters/us/saurfang/Kirasta",
+      "profile_banner": "classbanner_warrior1",
+      "covenant": {
+        "id": 1,
+        "name": "Kyrian",
+        "renown_level": 55
+      },
+      "mythic_plus_scores_by_season": [
+        {
+          "season": "season-sl-3",
+          "scores": {
+            "all": 0,
+            "dps": 0,
+            "healer": 0,
+            "tank": 0,
+            "spec_0": 0,
+            "spec_1": 0,
+            "spec_2": 0,
+            "spec_3": 0
+          },
+          "segments": {
+            "all": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "dps": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "healer": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "tank": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_0": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_1": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_2": {
+              "score": 0,
+              "color": "#ffffff"
+            },
+            "spec_3": {
+              "score": 0,
+              "color": "#ffffff"
+            }
+          }
+        }
+      ],
+      "gear": {
+        "item_level_equipped": 245,
+        "item_level_total": 0,
+        "artifact_traits": 0,
+        "corruption": {
+          "added": 0,
+          "resisted": 0,
+          "total": 0,
+          "cloakRank": 0,
+          "spells": []
+        },
+        "items": {
+          "head": {
+            "item_id": 186350,
+            "item_level": 246,
+            "icon": "inv_helm_plate_mawraid_d_01",
+            "name": "Valorous Visage of Krexus",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [
+              {
+                "name": "Unknown",
+                "quality": 0,
+                "icon": "inv_misc_questionmark",
+                "expansionId": 0,
+                "inventoryType": 0,
+                "item_id": 187315
+              }
+            ],
+            "gems": [
+              187315
+            ],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "neck": {
+            "item_id": 186379,
+            "item_level": 246,
+            "icon": "inv_neck_mawraid_02_blue",
+            "name": "Interplanar Keystone",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              7574,
+              1485,
+              6646
+            ]
+          },
+          "shoulder": {
+            "item_id": 186349,
+            "item_level": 233,
+            "icon": "inv_shoulder_plate_mawraid_d_01",
+            "name": "Spires of Broken Hope",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [
+              {
+                "name": "Unknown",
+                "quality": 0,
+                "icon": "inv_misc_questionmark",
+                "expansionId": 0,
+                "inventoryType": 0,
+                "item_id": 187076
+              }
+            ],
+            "gems": [
+              187076
+            ],
+            "bonuses": [
+              7189,
+              41,
+              1472,
+              6646
+            ]
+          },
+          "back": {
+            "item_id": 186374,
+            "item_level": 239,
+            "enchant": 6204,
+            "icon": "inv_cape_leather_mawraid_d_01",
+            "name": "Self-Replicating Tissue",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "chest": {
+            "item_id": 186347,
+            "item_level": 239,
+            "enchant": 6214,
+            "icon": "inv_chest_plate_mawraid_d_01",
+            "name": "Ancient Colossus Chassis",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [
+              {
+                "name": "Unknown",
+                "quality": 0,
+                "icon": "inv_misc_questionmark",
+                "expansionId": 0,
+                "inventoryType": 0,
+                "item_id": 187079
+              }
+            ],
+            "gems": [
+              187079
+            ],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "waist": {
+            "item_id": 190475,
+            "item_level": 265,
+            "icon": "inv_belt_plate_raidwarriorprogenitor_d_01",
+            "name": "Girdle of Unity",
+            "item_quality": 5,
+            "is_legendary": true,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              6652,
+              7579
+            ]
+          },
+          "shirt": {
+            "item_id": 151116,
+            "item_level": 1,
+            "icon": "inv_shirt_06",
+            "name": "Fashionable Undershirt",
+            "item_quality": 3,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": []
+          },
+          "wrist": {
+            "item_id": 186351,
+            "item_level": 246,
+            "enchant": 6222,
+            "icon": "inv_bracer_plate_mawraid_d_01",
+            "name": "Vyraz's Parade Cuffs",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [
+              {
+                "name": "Unknown",
+                "quality": 0,
+                "icon": "inv_misc_questionmark",
+                "expansionId": 0,
+                "inventoryType": 0,
+                "item_id": 187318
+              }
+            ],
+            "gems": [
+              187318
+            ],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "hands": {
+            "item_id": 186369,
+            "item_level": 239,
+            "enchant": 6210,
+            "icon": "inv_glove_plate_mawraid_d_01",
+            "name": "Guillotine Gauntlets",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [
+              {
+                "name": "Unknown",
+                "quality": 0,
+                "icon": "inv_misc_questionmark",
+                "expansionId": 0,
+                "inventoryType": 0,
+                "item_id": 187312
+              }
+            ],
+            "gems": [
+              187312
+            ],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "legs": {
+            "item_id": 186348,
+            "item_level": 239,
+            "icon": "inv_pant_plate_mawraid_d_01",
+            "name": "Fateforged Legplates",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "feet": {
+            "item_id": 186373,
+            "item_level": 239,
+            "enchant": 6207,
+            "icon": "inv_boot_plate_mawraid_d_01",
+            "name": "Towering Shadowghast Greatboots",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646
+            ]
+          },
+          "finger1": {
+            "item_id": 178926,
+            "item_level": 291,
+            "enchant": 6166,
+            "icon": "inv_jewelcrafting_90_maxlvlring_red",
+            "name": "Shadowghast Ring",
+            "item_quality": 5,
+            "is_legendary": true,
+            "legendary_spell": {
+              "id": 335266,
+              "name": "Signet of Tormented Kings",
+              "icon": "inv_60crafted_ring4b",
+              "school": 0,
+              "rank": null
+            },
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              173128
+            ],
+            "bonuses": [
+              6959,
+              6649,
+              6648,
+              6935,
+              8156,
+              7882,
+              1588
+            ]
+          },
+          "finger2": {
+            "item_id": 186290,
+            "item_level": 239,
+            "enchant": 6166,
+            "icon": "inv_ring_mawraid_01_blue",
+            "name": "Sworn Oath of the Nine",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              7574,
+              1485,
+              6646
+            ]
+          },
+          "trinket1": {
+            "item_id": 179342,
+            "item_level": 252,
+            "icon": "spell_mage_focusingcrystal",
+            "name": "Overwhelming Power Crystal",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7608,
+              7359,
+              6652,
+              1566,
+              6646
+            ]
+          },
+          "trinket2": {
+            "item_id": 186423,
+            "item_level": 239,
+            "icon": "spell_holy_healingfocus",
+            "name": "Titanic Ocular Gland",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              41,
+              1485,
+              6646
+            ]
+          },
+          "mainhand": {
+            "item_id": 186410,
+            "item_level": 246,
+            "enchant": 6228,
+            "icon": "inv_sword_2h_mawraid_d_01",
+            "name": "Jaithys, the Prison Blade",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7188,
+              6652,
+              1485,
+              6646,
+              7745,
+              7746,
+              7747
+            ]
+          },
+          "offhand": {
+            "item_id": 186410,
+            "item_level": 233,
+            "enchant": 6229,
+            "icon": "inv_sword_2h_mawraid_d_01",
+            "name": "Jaithys, the Prison Blade",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "bonuses": [
+              7189,
+              6652,
+              1472,
+              6646,
+              7748
+            ]
+          }
+        }
+      },
+      "raid_progression": {
+        "castle-nathria": {
+          "summary": "2/10 M",
+          "total_bosses": 10,
+          "normal_bosses_killed": 10,
+          "heroic_bosses_killed": 10,
+          "mythic_bosses_killed": 2
+        },
+        "sanctum-of-domination": {
+          "summary": "9/10 H",
+          "total_bosses": 10,
+          "normal_bosses_killed": 10,
+          "heroic_bosses_killed": 9,
+          "mythic_bosses_killed": 0
+        },
+        "sepulcher-of-the-first-ones": {
+          "summary": "0/11 N",
+          "total_bosses": 11,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "guild": {
+        "name": "Immaterial",
+        "realm": "Saurfang"
+      },
+      "id": "Kirasta"
+    }
+  ]
 }
