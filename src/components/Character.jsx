@@ -25,6 +25,7 @@ export default function Character() {
             <h2>Character Search</h2>
             <CharacterForm 
                 character={character}
+                setCharacter={setCharacter}
                 handleCharacterChange={handleCharacterChange}
                 characterDetails={characterDetails}
                 setCharacterDetails={setCharacterDetails}

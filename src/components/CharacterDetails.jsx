@@ -9,9 +9,6 @@ export default function CharacterDetails({characterDetails, setCharacterDetails}
     
     const [ savedCharacters, setSavedCharacters ] = useContext(SavedCharactersContext)
 
-    const clearDetails = ()=> {
-        setCharacterDetails(null)
-    }
 
     const isSaved = () => savedCharacters.some(c=>c.name === characterDetails.name)
     
@@ -38,11 +35,9 @@ export default function CharacterDetails({characterDetails, setCharacterDetails}
             {
                 isSaved() ?
                 <Button variant="contained" onClick={()=>removeSavedCharacter(characterDetails, savedCharacters,setSavedCharacters)}>Remove Saved Character</Button> : 
-                <Button variant="contained" onClick={()=>saveCharacter(characterDetails, savedCharacters, setSavedCharacters)}>Save Character</Button>
-                
+                <Button variant="contained" onClick={()=>saveCharacter(characterDetails, savedCharacters, setSavedCharacters)}>Save Character</Button>                
             }
             
-            <Button variant="outlined" onClick={()=>clearDetails()}>Clear</Button>
         </div>
     )
 }

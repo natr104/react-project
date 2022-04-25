@@ -5,15 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { SavedCharactersContextProvider } from './contexts/SavedCharactersContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Character from './components/Character';
-import Home from './components/Home';
+import { CssBaseline } from '@mui/material';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <SavedCharactersContextProvider>
-
+      <CssBaseline />
       <Router>
         <App />
       </Router>
