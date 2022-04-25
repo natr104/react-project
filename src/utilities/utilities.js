@@ -26,10 +26,11 @@ export const handleSubmit = async (event, character, characterDetails, setCharac
 export const capitalizeFirstLetter = ([ first, ...rest ], locale = navigator.language) => first.toLocaleUpperCase(locale) + rest.join('');
 
 export const saveCharacter = (characterDetails, savedCharacters, setSavedCharacters) => {
-    
+    const id = characterDetails.name+characterDetails.realm;
+
     const character = {
         ...characterDetails,
-        id: characterDetails.name
+        id: id
     }
 
     const configObj = {
@@ -51,7 +52,7 @@ export const saveCharacter = (characterDetails, savedCharacters, setSavedCharact
                     data
                 ]
             )
-            alert(`You have added ${data.name} to your saved characters.`)
+            // alert(`You have added ${data.name} to your saved characters.`)
         })
 
 }
@@ -72,5 +73,4 @@ export const removeSavedCharacter = ( characterDetails, savedCharacters, setSave
         .then(data => setSavedCharacters([
             ...savedCharacters.filter(c=>c.name!==characterDetails.name)
         ]))
-    alert(`You have removed ${characterDetails.name} from your saved characters.`)
 }

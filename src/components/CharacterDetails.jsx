@@ -3,6 +3,7 @@ import Avatar from "./Avatar";
 import { removeSavedCharacter, saveCharacter } from "../utilities/utilities";
 import { useContext } from "react";
 import { SavedCharactersContext } from "../contexts/SavedCharactersContext";
+import Button from "@mui/material/Button";
 
 export default function CharacterDetails({characterDetails, setCharacterDetails}) {
     
@@ -36,12 +37,12 @@ export default function CharacterDetails({characterDetails, setCharacterDetails}
             </p>
             {
                 isSaved() ?
-                <button onClick={()=>removeSavedCharacter(characterDetails, savedCharacters,setSavedCharacters)}>Remove Saved Character</button> : 
-                <button onClick={()=>saveCharacter(characterDetails, savedCharacters, setSavedCharacters)}>Save Character</button>
+                <Button variant="contained" onClick={()=>removeSavedCharacter(characterDetails, savedCharacters,setSavedCharacters)}>Remove Saved Character</Button> : 
+                <Button variant="contained" onClick={()=>saveCharacter(characterDetails, savedCharacters, setSavedCharacters)}>Save Character</Button>
                 
             }
             
-            <button onClick={()=>clearDetails()}>Clear</button>
+            <Button variant="outlined" onClick={()=>clearDetails()}>Clear</Button>
         </div>
     )
 }
