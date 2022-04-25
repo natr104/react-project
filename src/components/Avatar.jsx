@@ -11,9 +11,12 @@ export default function Avatar({characterDetails}) {
             <h2>
                 <a href={`https://worldofwarcraft.com/en-us/character/us/${characterDetails.realm}/${characterDetails.name}`}>{characterDetails.name}</a> - {characterDetails.realm}
             </h2>
+            { characterDetails.guild ?
             <h3>
                 {`<`}{characterDetails.guild.name}{`>`} - {characterDetails.guild.realm}
-            </h3>
+            </h3> :
+            null
+            }
             <h4>
                 {characterDetails.race} {characterDetails.active_spec_name} {characterDetails.class} ({faction})
             </h4>

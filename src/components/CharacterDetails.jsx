@@ -15,7 +15,7 @@ export default function CharacterDetails({characterDetails, setCharacterDetails}
     const isSaved = () => savedCharacters.some(c=>c.name === characterDetails.name)
     
     return (
-        <div id={characterDetails.name}>
+        <div className="character-details" id={characterDetails.name}>
             <Avatar characterDetails={characterDetails}/>
             <p>
                 Covenant: {characterDetails.covenant.name} (Renown {characterDetails.covenant.renown_level})

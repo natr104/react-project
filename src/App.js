@@ -2,13 +2,13 @@ import './App.css';
 import React from 'react';
 import Home from './components/Home'
 import Character from './components/Character';
-import { Routes, Route, Link, Outlet} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Layout from './components/Layout';
 import SavedCharacters from './components/SavedCharacters';
 
 function App() {
   return (
-    <div>
+    <div id="raider-io-app">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

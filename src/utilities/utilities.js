@@ -8,6 +8,7 @@ export const fetchCharacter = async ({characterName, realm}) => {
             alert(`${character.message}`)
             return null;
         } else {
+            console.log(character)
             return character;
         }
         
