@@ -3,7 +3,7 @@ import { useContext } from "react";
 import CharacterDetails from "./CharacterDetails";
 import { Container, Grid } from "@mui/material";
 
-export default function SavedCharacters({ children }) {
+export default function SavedCharacters() {
   const [savedCharacters, setSavedCharacters] = useContext(
     SavedCharactersContext
   );

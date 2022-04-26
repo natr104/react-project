@@ -5,10 +5,11 @@ import Character from './components/Character';
 import { Routes, Route} from 'react-router-dom';
 import Layout from './components/Layout';
 import SavedCharacters from './components/SavedCharacters';
+import { Container } from '@mui/material';
 
 function App() {
   return (
-    <div id="raider-io-app">
+    <Container maxWidth="xl" id="raider-io-app">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -16,7 +17,7 @@ function App() {
           <Route path="saved_characters" element={<SavedCharacters />} />
         </Route>
       </Routes>
-    </div>
+    </Container>
   );
 }
 
