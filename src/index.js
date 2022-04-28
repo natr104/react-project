@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { SavedCharactersContextProvider } from './contexts/SavedCharactersContext';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
 
 const container = document.getElementById('root');

@@ -60,6 +60,7 @@ export const saveCharacter = (characterDetails, savedCharacters, setSavedCharact
 export const removeSavedCharacter = ( characterDetails, savedCharacters, setSavedCharacters ) => {
     
     
+    
     const configObj = {
         method: "DELETE",
         headers: {
@@ -68,7 +69,7 @@ export const removeSavedCharacter = ( characterDetails, savedCharacters, setSave
         }
     }
     
-    fetch(`http://localhost:3001/savedCharacters/${characterDetails.name}`, configObj)
+    fetch(`http://localhost:3001/savedCharacters/${characterDetails.id}`, configObj)
         .then(res => res.json())
         .then(data => setSavedCharacters([
             ...savedCharacters.filter(c=>c.name!==characterDetails.name)
