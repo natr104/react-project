@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <SavedCharactersContextProvider>
       <CssBaseline />
-      <Router>
+      <Router basename="/react-project">
         <App />
       </Router>
 
