@@ -20,6 +20,7 @@ export const fetchCharacter = async ({characterName, realm}) => {
 export const handleSubmit = async (event, character, setCharacterDetails)=> {
     event.preventDefault();
     const returnedCharacter = await fetchCharacter(character);
+    console.log(setCharacterDetails)
     return setCharacterDetails(returnedCharacter);
 }
 

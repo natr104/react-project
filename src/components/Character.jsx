@@ -10,6 +10,7 @@ export default function Character() {
         realm: "Saurfang"
     })
     const [characterDetails, setCharacterDetails] = useState(null);
+    console.log(setCharacterDetails)
 
     function handleCharacterChange(event) {
         setCharacter({

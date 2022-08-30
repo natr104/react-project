@@ -7,6 +7,7 @@ import Layout from './components/Layout';
 import SavedCharacters from './components/SavedCharacters';
 import { Container } from '@mui/material';
 
+
 function App() {
   return (
     <Container maxWidth="xl" id="raider-io-app">

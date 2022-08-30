@@ -2,13 +2,14 @@ import React from "react";
 import CharacterAvatar from "./CharacterAvatar";
 import CharacterProgression from "./CharacterProgression";
 import ContentRecommendations from "./ContentRecommendations";
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 import { removeSavedCharacter, saveCharacter } from "../utilities/utilities";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { SavedCharactersContext } from "../contexts/SavedCharactersContext";
 import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import Stack from "@mui/material/Stack";
+import { Link } from "@mui/material";
 
 
 export default function CharacterDetails({
@@ -18,6 +19,14 @@ export default function CharacterDetails({
   const [savedCharacters, setSavedCharacters] = useContext(
     SavedCharactersContext
   );
+  const [isOpen, setOpen] = useState(false);
+
+  function handleClick(event) {
+    setOpen(true)
+  }
+
+  const ioScore = characterDetails["mythic_plus_scores_by_season"][0]["scores"]["all"]
+  console.log(ioScore)
 
   const isSaved = () =>
     savedCharacters.some((c) => c.name === characterDetails.name);
@@ -34,10 +43,15 @@ export default function CharacterDetails({
     >
       <CharacterAvatar characterDetails={characterDetails} />
       <CharacterProgression characterDetails={characterDetails} />
+      {isOpen? (
+        <ContentRecommendations ioScore={ioScore}/>
+      ) : null }
       <Stack spacing={2}>
-        <Button 
-          variant="contained"
+        <Button
+          onClick={handleClick}
+          variant='contained'
           color="primary"
+
           >
           Get Content Recommendations
         </Button>

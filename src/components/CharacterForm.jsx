@@ -17,10 +17,14 @@ export default function CharacterForm({
     });
   };
 
+
+
   return (
     <form
-      onSubmit={(event) =>
-        handleSubmit(event, character, characterDetails, setCharacterDetails)
+      onSubmit={(event) => {
+        console.log(setCharacterDetails)
+        handleSubmit(event, character, setCharacterDetails)
+      }
       }
     >
       <TextField
